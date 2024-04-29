@@ -1,13 +1,10 @@
-// memanggil library mysql
-const mysql = require('mysql');
+const mysql = require("mysql");
 
-// membuat koneksi ke database
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'db_mahasiswa'
+    host: "sql6.freesqldatabase.com",
+    user: "sql6702752",
+    database: "sql6702752",
+    password: "2fNI1JAZk8",
 });
 
-// export module db
 module.exports = db;
